@@ -1,0 +1,110 @@
+body{
+    font-family: sans-serif;
+    background-color: bisque;
+}
+
+#header{
+    text-align: center;
+
+        padding-bottom: 1rem
+}
+
+.btn-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.btn-element{
+        background-color: #94003A;
+        border: 1px solid #94003A;
+        padding: 7px 24px;
+        cursor: pointer;
+
+}
+
+.btn-links{
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 1.2rem;
+}
+
+.btn-element:hover {
+    background-color: #FFE4C4;
+    color: #94003A;
+
+}
+.btn-links:hover {
+    color: #94003A;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Floating Content  */
+
+
+#container {
+    
+    width: 100%;
+}
+
+#left,
+#middle,
+#right {
+    display: inline-block;
+    *display: inline;
+    height: 300px;
+    zoom: 1;
+    vertical-align: top;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+#left {
+    width: 20%;
+    background: #F6D0E3;
+}
+
+#middle {
+    width: 55.2%;
+    background: #C7E3F6;
+}
+
+#right {
+    width: 20%;
+    background: #C6E9C1;
+}
+
+#footer{
+    text-align: center;
+    background-color: #94003A;
+    color: white;
+    padding: 1.5rem;
+}
+
+#academics-main{
+        height: 100%;
+        zoom: 1;
+        padding: 1.5rem;
+        background-color: #0056A6;
+
+
+}
+
+.academics-courses-element{
+        color: bisque;
+}
+
+.academic-links {
+    color: azure;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.academic-links:hover {
+    color: bisque;
+    text-decoration: none;
+}

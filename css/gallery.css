@@ -1,0 +1,13 @@
+body {
+    padding: 30px 0;
+    position: relative;
+}
+
+.img-w {
+    height:500px;
+    margin: auto;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+
